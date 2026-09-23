@@ -23,10 +23,10 @@ final class Value
     {
     }
 
-    public const string OBJECT = 'object';
-    public const string ARR = 'array';
-    public const string SCALAR = 'scalar';
-    public const string NULL = 'null';
+    public const OBJECT = 'object';
+    public const ARR = 'array';
+    public const SCALAR = 'scalar';
+    public const NULL = 'null';
 
     public static function classify(mixed $v): string
     {

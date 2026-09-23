@@ -13,7 +13,7 @@ from [gcf-python](https://github.com/blackwell-systems/gcf-python) v2.3.0 and tr
 
 ## Requirements
 
-PHP 8.5+. Zero runtime dependencies — matching the other six official implementations' permanent
+PHP 8.1+. Zero runtime dependencies — matching the other six official implementations' permanent
 zero-dependency commitment.
 
 ## Usage

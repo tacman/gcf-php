@@ -27,7 +27,7 @@ use PHPUnit\Framework\TestCase;
  */
 final class GraphConformanceTest extends TestCase
 {
-    private const array GRAPH_ERROR_FIXTURES = [
+    private const GRAPH_ERROR_FIXTURES = [
         '028_invalid_graph_node.json',
         '029_invalid_graph_symbol_id.json',
         '030_invalid_graph_score.json',

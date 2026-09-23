@@ -18,7 +18,7 @@ use Gcf\Symbol;
 final class Delta
 {
     /** @var list<string> */
-    private const array VALID_SECTIONS = ['removed', 'added', 'edges_removed', 'edges_added'];
+    private const VALID_SECTIONS = ['removed', 'added', 'edges_removed', 'edges_added'];
 
     private function __construct()
     {

@@ -28,7 +28,7 @@ use Gcf\Symbol;
  */
 final class StreamEncoder
 {
-    private const array GROUP_NAMES = ['targets', 'related', 'extended'];
+    private const GROUP_NAMES = ['targets', 'related', 'extended'];
 
     /** @var array<string,int> qualifiedName -> local id */
     private array $symIndex = [];

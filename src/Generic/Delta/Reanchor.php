@@ -11,7 +11,7 @@ namespace Gcf\Generic\Delta;
 final class Reanchor
 {
     /** The working default cadence for FixedN (SPEC Section 10a.8). */
-    public const int DEFAULT_REANCHOR_N = 15;
+    public const DEFAULT_REANCHOR_N = 15;
 
     private function __construct()
     {

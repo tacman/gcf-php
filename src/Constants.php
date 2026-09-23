@@ -8,7 +8,7 @@ namespace Gcf;
 final class Constants
 {
     /** @var array<string,string> Full kind name -> short GCF abbreviation. */
-    public const array KIND_ABBREV = [
+    public const KIND_ABBREV = [
         'function' => 'fn',
         'type' => 'type',
         'method' => 'method',
@@ -28,7 +28,7 @@ final class Constants
     ];
 
     /** @var array<string,string> Short GCF abbreviation -> full kind name. */
-    public const array KIND_EXPAND = [
+    public const KIND_EXPAND = [
         'fn' => 'function',
         'type' => 'type',
         'method' => 'method',
